@@ -31,7 +31,7 @@ public class Random extends PlaceholderExpansion {
     // Version de l'expansion
     @Override
     public String getVersion() {
-        return "2.0.0";
+        return "2.1.0";
     }
 
 
@@ -92,6 +92,16 @@ public class Random extends PlaceholderExpansion {
 
         }
 
+        //Random classique color
+        if (identifier.toLowerCase().startsWith("colorclassique")) {
+
+        String [] listeColors = {"&0","&1","&2","&3","&4","&5","&6","&7","&8","&9","&a","&b","&c","&d","&e","&f"};
+
+        int randomNumber = new java.util.Random().nextInt(listeColors.length);
+
+        return listeColors[randomNumber];
+
+        }
 
 
         if (identifier.equals("Teyir")) {
