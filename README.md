@@ -7,7 +7,7 @@ This is all the placeholders (V2.0.0)
 | ------ |------ |
 | %random_max_NUMBER% | Int  |
 
-#Example
+# Example
 %random_max_150% -> 80
 
 
