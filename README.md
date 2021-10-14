@@ -17,6 +17,7 @@ This is all the placeholders (V2.1.0)
 ```
 
 
-
+### Installation :
+Drag the jar file in the folder /plugins/PlaceholderAPI/expansions
 
 If you want any other range you can make an issue

@@ -1,8 +1,6 @@
 # Default ignored files
 /shelf/
 /workspace.xml
-# Datasource local storage ignored files
-/../../../../:\Plugins-dev\PAPI_Random2\.idea/dataSources/
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
